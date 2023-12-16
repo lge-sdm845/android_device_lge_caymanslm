@@ -330,7 +330,6 @@ vendor/lib64/libsensor_lge_hd_cal.so
 vendor/lib64/vendor.lge.hardware.sensors@1.0.so
 
 # Sensors configs
-vendor/etc/sensors/hals.conf
 vendor/etc/sensors/registry/config/ak991x_dri_0.json
 vendor/etc/sensors/registry/config/etc_version
 vendor/etc/sensors/registry/config/icm4x6xx_0.json
