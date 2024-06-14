@@ -22,6 +22,10 @@ BOARD_SUPER_PARTITION_SIZE := 21470642176
 # Inherit from common device tree
 include device/lge/sdm845-common/BoardConfigCommon.mk
 
+# HIDL
+DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE += \
+    $(DEVICE_PATH)/framework_compatibility_matrix.xml
+
 # Kernel
 BOARD_KERNEL_CMDLINE += androidboot.hardware=caymanslm androidboot.fstab_suffix=caymanslm
 TARGET_KERNEL_CONFIG := lineageos_caymanslm_defconfig
