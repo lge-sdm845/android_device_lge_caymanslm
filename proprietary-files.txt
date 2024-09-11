@@ -1,6 +1,11 @@
 ## All proprietary files from this list, unless pinned and noted otherwise,
 ## are from G910EMW30l (SKQ1.211103.001).
 
+# Current blobs with ELF checks disabled:
+#
+# The following depend on compiler intrinsic symbols that are not exported:
+# liblgae_main, libmmcamera_faceproc
+
 # ADSP
 vendor/bin/chre
 vendor/lib/libsymphony-1.1.4.so
@@ -79,13 +84,13 @@ vendor/lib/libfilm_emulation.so
 vendor/lib/libfilm_emulation_symphony.so
 vendor/lib/liblgdnnsnpe.so
 vendor/lib/liblghdri.so
-vendor/lib/libmmcamera_faceproc.so
+vendor/lib/libmmcamera_faceproc.so;DISABLE_CHECKELF
 vendor/lib/libmmcamera_faceproc2.so
 vendor/lib/libmorpho_image_stab31.so
 vendor/lib/libmorpho_superzoom.so
 vendor/lib/libmorpho_wdr2.so
 vendor/lib/libmpbase.so
-vendor/lib64/libmmcamera_faceproc.so
+vendor/lib64/libmmcamera_faceproc.so;DISABLE_CHECKELF
 vendor/lib64/libmmcamera_faceproc2.so
 
 # Camera - Automatic white-balance and exposure
@@ -153,7 +158,7 @@ vendor/lib/libSNPE.so
 vendor/lib/libSRIyuv.so
 vendor/lib/libc++_shared_snpe.so:vendor/lib/libc++_shared.so
 vendor/lib/libcom.qti.chinodeutils.so
-vendor/lib/liblgae_main.so
+vendor/lib/liblgae_main.so;DISABLE_CHECKELF
 vendor/lib/liblgawb_main.so
 vendor/lib64/libc++_shared_snpe.so:vendor/lib64/libc++_shared.so
 
