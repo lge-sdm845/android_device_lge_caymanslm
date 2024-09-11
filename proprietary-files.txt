@@ -50,8 +50,6 @@ vendor/lib/rfsa/adsp/libstabilitydomain_skel.so
 vendor/lib/rfsa/adsp/libsysmon_skel.so
 vendor/lib/rfsa/adsp/libsysmondomain_skel.so
 vendor/lib/rfsa/adsp/mmecns_module.so.1
-vendor/lib64/rfsa/adsp/libsns_device_mode_skel.so
-vendor/lib64/rfsa/adsp/libsns_low_lat_stream_skel.so
 
 # Audio
 vendor/etc/acdbdata/Bluetooth_cal.acdb
