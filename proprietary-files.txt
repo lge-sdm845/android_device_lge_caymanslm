@@ -68,6 +68,7 @@ vendor/etc/acdbdata/Speaker_cal.acdb
 
 # Camera
 vendor/lib/hw/camera.sdm845.so
+vendor/lib/hw/com.qti.chi.override.so
 vendor/lib/libAutoContrast.so
 vendor/lib/libSJVideoNR.so
 vendor/lib/libarcsoft_beauty_picselfie.so
@@ -87,7 +88,6 @@ vendor/lib/libmorpho_superzoom.so
 vendor/lib/libmpbase.so
 vendor/lib64/libmmcamera_faceproc.so
 vendor/lib64/libmmcamera_faceproc2.so
-vendor/lib/hw/com.qti.chi.override.so
 
 # Camera - Automatic white-balance and exposure
 vendor/lib/camera/fdconfigpreview.bin
@@ -202,8 +202,8 @@ vendor/lib/camera/components/com.qtistatic.stats.awb.so
 vendor/lib/camera/components/com.qtistatic.stats.pdlib.so
 
 # Camera - configs
-vendor/etc/camera/iqm/fc4_awb.dlc
 vendor/etc/camera/iqm/ai_checker_graph.dlc
+vendor/etc/camera/iqm/fc4_awb.dlc
 vendor/etc/camera/iqm/fc4_awb.dlc
 vendor/etc/camera/iqm/gender_detection_graph.dlc
 
@@ -361,9 +361,9 @@ vendor/etc/sensors/registry/sns_reg_config
 vendor/etc/sensors/sns_reg_config
 
 # Trustonic TEE
-vendor/bin/mcDriverDaemon
-vendor/bin/hw/vendor.trustonic.tee@1.1-service
 vendor/app/mcRegistry/07010000000000000000000000000000.tlbin
+vendor/bin/hw/vendor.trustonic.tee@1.1-service
+vendor/bin/mcDriverDaemon
 vendor/etc/init/vendor.trustonic.tee@1.1-service.rc
 vendor/lib64/libMcClient.so
 vendor/lib64/vendor.trustonic.tee@1.0.so
