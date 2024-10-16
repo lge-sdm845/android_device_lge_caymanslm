@@ -7,4 +7,12 @@
             <instance>default</instance>
         </interface>
     </hal>
+    <hal format="hidl" optional="true">
+        <name>vendor.lge.hardware.powerhint.rescontrol</name>
+        <version>2.0</version>
+        <interface>
+            <name>IResControl</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
 </compatibility-matrix>
