@@ -278,6 +278,16 @@ vendor/etc/init/android.hardware.keymaster@4.0-service-qti.rc
 # QDCM calibration data
 vendor/etc/qdcm_calib_data_SW43103_cmd_mode_dsc_dsi_panel.xml
 
+# Res Control
+vendor/bin/hw/vendor.lge.hardware.powerhint.rescontrol@2.0-service
+vendor/etc/init/vendor.lge.hardware.powerhint.rescontrol@2.0-service.rc
+vendor/lib/libvendor_rescontrol.so
+vendor/lib/vendor.lge.hardware.powerhint.rescontrol@2.0-common.so
+vendor/lib/vendor.lge.hardware.powerhint.rescontrol@2.0.so
+vendor/lib64/libvendor_rescontrol.so
+vendor/lib64/vendor.lge.hardware.powerhint.rescontrol@2.0-common.so
+vendor/lib64/vendor.lge.hardware.powerhint.rescontrol@2.0.so
+
 # Sensors
 vendor/bin/hw/vendor.qti.hardware.sensorscalibrate@1.0-service
 vendor/bin/sensors.qti

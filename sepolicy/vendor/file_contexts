@@ -1,0 +1,2 @@
+# HALs
+/(vendor|system/vendor)/bin/hw/vendor\.lge\.hardware\.powerhint\.rescontrol@2\.0-service                u:object_r:hal_powerhint_default_exec:s0
