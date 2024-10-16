@@ -66,6 +66,8 @@ vendor/lib/hw/camera.sdm845.so
 vendor/lib/hw/com.qti.chi.override.so
 vendor/lib/libAutoContrast.so
 vendor/lib/libSJVideoNR.so
+vendor/lib/libVDRTStereoDepth.so
+vendor/lib/libVDStereoDepth.so
 vendor/lib/libarcsoft_beauty_picselfie.so
 vendor/lib/libarcsoft_picselfie_algorithm.so
 vendor/lib/libbwfocuspeaking.so
@@ -75,11 +77,13 @@ vendor/lib/libcamxstatscore.so
 vendor/lib/libcamxtintlessalgo.so
 vendor/lib/libfilm_emulation.so
 vendor/lib/libfilm_emulation_symphony.so
+vendor/lib/liblgdnnsnpe.so
 vendor/lib/liblghdri.so
 vendor/lib/libmmcamera_faceproc.so
 vendor/lib/libmmcamera_faceproc2.so
 vendor/lib/libmorpho_image_stab31.so
 vendor/lib/libmorpho_superzoom.so
+vendor/lib/libmorpho_wdr2.so
 vendor/lib/libmpbase.so
 vendor/lib64/libmmcamera_faceproc.so
 vendor/lib64/libmmcamera_faceproc2.so
