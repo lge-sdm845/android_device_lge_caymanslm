@@ -261,16 +261,10 @@ vendor/etc/wifi/icm.conf
 vendor/etc/wifi/icudt53l.dat
 
 # Fingerprint
-vendor/bin/hw/vendor.lge.hardware.biometrics.fingerprint@2.2-service-debug
-vendor/etc/init/vendor.lge.hardware.biometrics.fingerprint@2.2-service-debug.rc
-vendor/etc/vintf/manifest/vendor.lge.hardware.biometrics.fingerprint@2.2-service.xml
 vendor/lib64/hw/fingerprint.sdm845.so
 vendor/lib64/libRbsFlow.so
 vendor/lib64/libets_teeclient_v2.so
 vendor/lib64/libfpsph.so
-vendor/lib64/vendor.lge.hardware.biometrics.fingerprint@2.1.so
-vendor/lib64/vendor.lge.hardware.biometrics.fingerprint@2.2.so
-vendor/lib64/vendor.qti.hardware.fingerprint@1.0.so
 
 # Keymaster
 vendor/etc/init/android.hardware.keymaster@4.0-service-qti.rc

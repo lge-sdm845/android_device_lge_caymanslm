@@ -22,6 +22,9 @@ BOARD_SUPER_PARTITION_SIZE := 21470642176
 # Inherit from common device tree
 include device/lge/sdm845-common/BoardConfigCommon.mk
 
+# Fingerprint
+$(call soong_config_set,LGE_FINGERPRINT_HAL,TARGET_HAS_EGISTEC_UDFPS,true)
+
 # HIDL
 DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE += \
     $(DEVICE_PATH)/framework_compatibility_matrix.xml
