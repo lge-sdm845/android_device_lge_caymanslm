@@ -43,8 +43,6 @@ TARGET_VENDOR_PRODUCT_NAME := caymanslm
 TARGET_VENDOR_DEVICE_NAME := caymanslm
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    TARGET_DEVICE=caymanslm \
-    PRODUCT_NAME=caymanslm \
-    PRIVATE_BUILD_DESC="caymanslm-user 12 SKQ1.211103.001 231250317a5f6 release-keys"
-
-BUILD_FINGERPRINT := "lge/caymanslm/caymanslm:12/SKQ1.211103.001/231250317a5f6:user/release-keys"
+    DeviceName=caymanslm \
+    BuildDesc="caymanslm-user 12 SKQ1.211103.001 231250317a5f6 release-keys" \
+    BuildFingerprint=lge/caymanslm/caymanslm:12/SKQ1.211103.001/231250317a5f6:user/release-keys
