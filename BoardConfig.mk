@@ -33,9 +33,6 @@ DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE += \
 BOARD_KERNEL_CMDLINE += androidboot.hardware=caymanslm androidboot.fstab_suffix=caymanslm
 TARGET_KERNEL_CONFIG := lineageos_caymanslm_defconfig
 
-# Lights
-$(call soong_config_set,LGE_LIGHTS_HAL,INCLUDE_DIR,$(DEVICE_PATH)/include)
-
 # Properties
 TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
 TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
