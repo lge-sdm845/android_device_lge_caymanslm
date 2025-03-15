@@ -20,7 +20,7 @@ DEVICE_PATH := device/lge/caymanslm
 BOARD_SUPER_PARTITION_SIZE := 21470642176
 
 # Inherit from common device tree
-include device/lge/sdm845-common/BoardConfigCommon.mk
+include device/lge/sdm845-common/BoardConfigDynamic.mk
 
 # Fingerprint
 $(call soong_config_set,LGE_FINGERPRINT_HAL,TARGET_HAS_EGISTEC_UDFPS,true)
