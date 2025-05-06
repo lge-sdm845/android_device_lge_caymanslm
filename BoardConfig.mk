@@ -22,6 +22,9 @@ BOARD_SUPER_PARTITION_SIZE := 21470642176
 # Inherit from common device tree
 include device/lge/sdm845-common/BoardConfigDynamic.mk
 
+# Display
+TARGET_SCREEN_DENSITY := 420
+
 # Fingerprint
 $(call soong_config_set,LGE_FINGERPRINT_HAL,TARGET_HAS_EGISTEC_UDFPS,true)
 
