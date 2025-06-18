@@ -59,6 +59,10 @@ PRODUCT_SOONG_NAMESPACES += \
 PRODUCT_PACKAGES += \
     android.hardware.sensors@2.0-service.multihal
 
+# Vibrator
+PRODUCT_PACKAGES += \
+    android.hardware.vibrator-service.lge
+
 # Wi-Fi Overlay
 PRODUCT_PACKAGES += \
     WifiOverlayVELVET
