@@ -41,6 +41,11 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     android.hardware.biometrics.fingerprint@2.3-service.lge
 
+# Init
+PRODUCT_COPY_FILES += \
+    device/lge/sdm845-common/rootdir/etc/fstab.dynamic:$(TARGET_COPY_OUT_RECOVERY)/root/first_stage_ramdisk/fstab.caymanslm \
+    device/lge/sdm845-common/rootdir/etc/fstab.dynamic:$(TARGET_COPY_OUT_VENDOR)/etc/fstab.caymanslm
+
 # NFC
 PRODUCT_PACKAGES += \
     android.hardware.nfc@1.2-service \
