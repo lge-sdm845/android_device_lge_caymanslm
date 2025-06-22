@@ -274,6 +274,10 @@ vendor/lib64/libfpsph.so
 # Keymaster
 vendor/etc/init/android.hardware.keymaster@4.0-service-qti.rc
 
+# NFC
+vendor/etc/libnfc-nci.conf
+vendor/etc/libnfc-nxp.conf
+
 # QDCM calibration data
 vendor/etc/qdcm_calib_data_SW43103_cmd_mode_dsc_dsi_panel.xml
 
